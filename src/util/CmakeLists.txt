@@ -1,0 +1,10 @@
+set(SRC
+  hello_world.cpp
+  )
+
+set(SRC_TESTS
+  hello_world.test.cpp  
+)
+
+target_sources(cpp_kata_1 PUBLIC ${SRC})
+target_sources(cpp_kata_1_tests PUBLIC ${SRC} ${SRC_TESTS})
